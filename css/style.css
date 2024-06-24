@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: gray;
+}
+
+.container{
+  width: 1600px;
+  height: 70px;
+  margin-top: 200px;
+  margin-left: 0px;
+  background-color: darkblue;
+  
+  
+  
+}
+
+.box{
+  display: flex;
+}
+
+h2{
+  margin-left: 550px;
+  padding-top: 20px;
+  color: #fff;
+}
+
+
+.cover{
+  width: 850px;
+  height: 60px;
+  background-color:  darkblue;
+  padding-top: 5px;
+  margin-top: 5px;
+  margin-left: -850px;
+  position: relative;
+  border: none;
+  border-left: 2px solid black;
+  transition-timing-function: ease-in-out;
+  transition: all 1s;
+
+}
+
+.container:hover  .cover  {
+  transform: translateX(1500px);
+  transition: all 1s;
+  
+}
